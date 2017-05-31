@@ -1,0 +1,26 @@
+{
+    "name": "son/mvc",
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7@stable",
+        "squizlabs/php_codesniffer": "dev-master"
+    },
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Wesley Willians",
+            "email": "wesleywillians@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SON" : "vendor",
+            "App" : "/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

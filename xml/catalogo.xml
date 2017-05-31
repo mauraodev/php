@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<catalogo>
+    <versao>1.1</versao>
+    <remessa>1122</remessa>
+    <categorias total="2">
+        <categoria id="204" id_pai="0" operacao="alterar">Cartões</categoria>
+        <categoria id="206" id_pai="204" operacao="incluir">Natal</categoria>
+    </categorias>
+    <marcas total="1">
+        <marca id="259" operacao="incluir">Beauty</marca>
+    </marcas>
+    <atributos total="1">
+        <atributo id="400" operacao="incluir">Cartão: Artesenal</atributo>
+    </atributos>
+    <temas total="3">
+        <tema id="43" operacao="incluir">Varias Liguas</tema>
+        <tema id="45" operacao="incluir">Familia</tema>
+        <tema id="61" operacao="incluir">Natal</tema>
+    </temas>
+    <produtos total="2">
+        <produto id="611174" nome="Cartão de Natal Grafon'S" opercao="incluir">
+            <resumo>Artesanal</resumo>
+            <categoria id="206" />
+            <marca id="259" />
+            <ean unidade="UN">7891313645001</ean>
+            <peso>0.0240</peso>
+            <dimensao>127x157</dimensao>
+            <tema id="61"/>
+            <pai_lista id="645001"/>
+            <atributo id="400" id_imagem=""/>
+        </produto>
+        <produto id="142999" nome="Caderno Espiral Capa Dura Universitário 10 Matérias" operacao="alterar">
+            <resumo />
+            <categoria id="30" />
+            <marca id="177" />
+            <ean unidade="UN">7891027142995</ean>
+            <peso>0.8280</peso>
+            <dimensao>200x275</dimensao>
+            <atributo id="23" id_imagem="" />
+            <atributo id="36" id_imagem="" />
+            <atributo id="38" id_imagem="" />
+            <atributo id="60" id_imagem="34298" />
+            <atributo id="69" id_imagem="" />
+            <atributo id="82" id_imagem="" />
+            <atributo id="411" id_imagem="34297" />
+            <estampa id="1" id_imagem="34299">Capa Red Bull Racing Dois Carros</estampa>
+            <estampa id="2" id_imagem="34300">Capa Red Bull Racing</estampa>
+            <estampa id="3" id_imagem="34301">Capa Red Bull Racing Carro Nº 0</estampa>
+            <estampa id="4" id_imagem="34302">Capa Red Bull Racing Carro Nº 29</estampa>
+        </produto>
+    </produtos>
+</catalogo>
