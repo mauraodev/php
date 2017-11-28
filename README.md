@@ -1,2 +1,1 @@
-# Exemplos de códigos em PHP
-
+# Boardplate de códigos em PHP
