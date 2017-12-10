@@ -1,17 +1,16 @@
 <?php
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 
 header('Content-Type: text/html; charset=utf-8');
 
-$xml = simplexml_load_file("livros.xml");
+if (file_exists("livros.xml")) {
+	$xml = simplexml_load_file("livros.xml");
+	
+	foreach ($xml as $item) {
+		echo $item->nome;
+	}
 
-$tmlXml = $xml;
-
-$arrCategorias = $tmlXml->categorias;
-//echo "<pre>";print_r($arrCategorias);echo "</pre>";
-
-foreach($arrCategorias->categoria as $arquivo){
-
-	echo "<pre>";print_r($arquivo);echo "</pre>";
+} else {
+	exit("Arquivo não existe");
 }
-
-?>
