@@ -1,4 +1,0 @@
-User: varejo
-Senha: vJ39sTRkr31x
-Porta: 5433
-IP: fbruwebaceite02.finchsolucoes.com.br
