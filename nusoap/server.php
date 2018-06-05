@@ -1,4 +1,5 @@
 <?php
+
 require_once "nusoap.php";
 
 $server = new nusoap_server();
@@ -21,11 +22,13 @@ $server->register('hello',
 $server->register('getprodutos');
 
 //first function implementation
-function hello($username) {
+function hello($username)
+{
     return 'Howdy, '.$username.'!';
 }
 
-function getprodutos() {
+function getprodutos()
+{
     return 'Howdy';
 }
 
