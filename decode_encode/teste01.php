@@ -1,4 +1,0 @@
-<?php
-	$string = utf8_encode("687474703a2f2f7777772e6d65676175706c6f61642e636f6d2f3f643d574e4a4847553532");
-	echo $string;
-?>
