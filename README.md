@@ -1,3 +1,3 @@
-# Boardplate de códigos em PHP
+# Ambiente de estudo sobre PHP
 
-Ambiente de teste de código em php
+Alguns estudos e teste de casos em PHP
